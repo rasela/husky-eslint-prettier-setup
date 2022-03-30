@@ -1,7 +1,7 @@
 {
-  "name": "test",
+  "name": "husky-eslint-prettier",
   "version": "1.0.0",
-  "description": "",
+  "description": "husky eslint prettier initial setup",
   "main": "index.js",
   "scripts": {
     "prepare": "husky install"
@@ -12,8 +12,12 @@
       "npx eslint --fix"
     ]
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "husky",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Rasela M",
   "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.17.0",
